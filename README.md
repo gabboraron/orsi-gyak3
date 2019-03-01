@@ -82,9 +82,6 @@ Integer nr = 0;
 Megoldás `amoba` mappa.
 Lényeges rész a megfelelő koordinátk kiszámolása és a tábla kirajtzolása:
 ````Java
-Megoldás `6`-os mappa.
-Lényeges rész:
-````Java
 public static void setNext(Vector<Integer> tiles, Integer x, Integer y, PrintWriter pw){
 		Integer coord = 0;
 		coord = (x-1)*3+y-1;
